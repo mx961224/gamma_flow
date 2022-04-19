@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lwq/CODE/opencv/flow-gamma6/flow.cpp
+unistd.h
+-
+opencv2/opencv.hpp
+-
+opencv2/imgproc/types_c.h
+-
+opencv2/xfeatures2d.hpp
+-
+opencv2/xfeatures2d/nonfree.hpp
+-
+iostream
+-
+

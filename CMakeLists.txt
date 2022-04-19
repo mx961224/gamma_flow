@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(test)
+find_package(OpenCV 3.4.2 REQUIRED)
+add_executable(result flow.cpp)
+target_link_libraries(result ${OpenCV_LIBS})
